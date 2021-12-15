@@ -1,7 +1,8 @@
 Attribute VB_Name = "Módulo3"
+
 Sub Cadastro()
-Attribute Cadastro.VB_Description = "Realiza um cadastro de Cliente"
-Attribute Cadastro.VB_ProcData.VB_Invoke_Func = "j\n14"
+Attribute Cadastro.VB_Description = "Botão que realiza o cadastro dos clientes"
+Attribute Cadastro.VB_ProcData.VB_Invoke_Func = "C\n14"
 '
 ' Cadastro Macro
 ' Realiza um cadastro de Cliente
@@ -126,8 +127,8 @@ Attribute Cadastro.VB_ProcData.VB_Invoke_Func = "j\n14"
     Range("G7").Select
 End Sub
 Sub Classificar()
-Attribute Classificar.VB_Description = "Classifica os Clientes de A-Z"
-Attribute Classificar.VB_ProcData.VB_Invoke_Func = "r\n14"
+Attribute Classificar.VB_Description = "Botão que classifica os clientes de A-Z"
+Attribute Classificar.VB_ProcData.VB_Invoke_Func = "R\n14"
 '
 ' Classificar Macro
 ' Classifica os Clientes de A-Z
@@ -152,8 +153,8 @@ Attribute Classificar.VB_ProcData.VB_Invoke_Func = "r\n14"
     Range("A2").Select
 End Sub
 Sub Filtrar()
-Attribute Filtrar.VB_Description = "Aplica filtros na tabela"
-Attribute Filtrar.VB_ProcData.VB_Invoke_Func = "f\n14"
+Attribute Filtrar.VB_Description = "Botão que aplica filtros na tabela com os dados dos clientes"
+Attribute Filtrar.VB_ProcData.VB_Invoke_Func = "F\n14"
 '
 ' Filtrar Macro
 ' Aplica filtros na tabela
@@ -164,8 +165,8 @@ Attribute Filtrar.VB_ProcData.VB_Invoke_Func = "f\n14"
     Selection.AutoFilter
 End Sub
 Sub Voltar()
-Attribute Voltar.VB_Description = "Volta para a página inicial"
-Attribute Voltar.VB_ProcData.VB_Invoke_Func = "v\n14"
+Attribute Voltar.VB_Description = "Botão que volta para a página inicial"
+Attribute Voltar.VB_ProcData.VB_Invoke_Func = "V\n14"
 '
 ' Voltar Macro
 ' Volta para a página inicial
